@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('lifecharger.org')
+WebUI.navigateToUrl('google.com')
 
 WebUI.closeBrowser()
 
