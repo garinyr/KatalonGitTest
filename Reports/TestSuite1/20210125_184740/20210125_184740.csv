@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 87.0.4280.141,,2021-01-25 18:47:44,2021-01-25 18:47:59,15.162s,PASSED
+,,,,,,
+Test Cases/Test 1,Chrome 87.0.4280.141,,2021-01-25 18:47:44,2021-01-25 18:47:59,14.649s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,2021-01-25 18:47:44,2021-01-25 18:47:52,7.417s,PASSED
+"navigateToUrl(""lifecharger.org"")",Chrome 87.0.4280.141,,2021-01-25 18:47:52,2021-01-25 18:47:58,6.268s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,2021-01-25 18:47:58,2021-01-25 18:47:59,0.671s,PASSED
