@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="46" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="46" timestamp="2021-01-26 16:24:22" hostname="AZURE$ - Azure" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\KatalonGitTest\\Reports\\TestSuite1\\20210126_162419"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\KatalonGitTest\\Reports\\TestSuite1\\20210126_162419\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AZURE$ - Azure"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.50.143"/>
+         <property name="sessionId" value="a557d79ad9da0655e151242f4caf2030"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test 1" classname="Test Cases/Test 1" status="PASSED">
+         <system-out><![CDATA[2021-01-26 16:24:23 - [TEST_CASE][PASSED] - Test Cases/Test 1: Test Cases/Test 1
+
+2021-01-26 16:24:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-26 16:24:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-26 16:24:24 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2021-01-26 16:24:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-26 16:24:30 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2021-01-26 16:24:37 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2021-01-26 16:24:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/the-internet/a-b testing page/a_AB Testing"), 5): Object 'Object Repository/the-internet/a-b testing page/a_AB Testing' is present
+
+2021-01-26 16:24:37 - [MESSAGE][PASSED] - Object 'Object Repository/the-internet/a-b testing page/a_AB Testing' is present
+
+2021-01-26 16:24:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet/a-b testing page/a_AB Testing")): Object: 'Object Repository/the-internet/a-b testing page/a_AB Testing' is clicked on
+
+2021-01-26 16:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet/a-b testing page/a_AB Testing' is clicked on
+
+2021-01-26 16:24:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-26 16:24:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test 2" classname="Test Cases/Test 2" status="PASSED">
+         <system-out><![CDATA[2021-01-26 16:24:38 - [TEST_CASE][PASSED] - Test Cases/Test 2: Test Cases/Test 2
+
+2021-01-26 16:24:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-26 16:24:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-26 16:24:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-26 16:24:42 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2021-01-26 16:25:07 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+2021-01-26 16:25:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/the-internet/add-remove elements/a_AddRemove Elements"), 5): Object 'Object Repository/the-internet/add-remove elements/a_AddRemove Elements' is present
+
+2021-01-26 16:25:07 - [MESSAGE][PASSED] - Object 'Object Repository/the-internet/add-remove elements/a_AddRemove Elements' is present
+
+2021-01-26 16:25:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet/add-remove elements/a_AddRemove Elements")): Object: 'Object Repository/the-internet/add-remove elements/a_AddRemove Elements' is clicked on
+
+2021-01-26 16:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet/add-remove elements/a_AddRemove Elements' is clicked on
+
+2021-01-26 16:25:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet/add-remove elements/button_Add Element")): Object: 'Object Repository/the-internet/add-remove elements/button_Add Element' is clicked on
+
+2021-01-26 16:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet/add-remove elements/button_Add Element' is clicked on
+
+2021-01-26 16:25:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/the-internet/add-remove elements/button_Delete"), 0): Object 'Object Repository/the-internet/add-remove elements/button_Delete' is present
+
+2021-01-26 16:25:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-26 16:25:08 - [MESSAGE][PASSED] - Object 'Object Repository/the-internet/add-remove elements/button_Delete' is present
+
+2021-01-26 16:25:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet/add-remove elements/button_Delete")): Object: 'Object Repository/the-internet/add-remove elements/button_Delete' is clicked on
+
+2021-01-26 16:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet/add-remove elements/button_Delete' is clicked on
+
+2021-01-26 16:25:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-26 16:25:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-26 16:24:22 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/Test 2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

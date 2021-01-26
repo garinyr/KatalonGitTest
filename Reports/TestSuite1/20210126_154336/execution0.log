@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-01-26T15:43:39</date>
+  <millis>1611650619636</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TestSuite1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TestSuite1</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TestSuite1</property>
+</record>
+<record>
+  <date>2021-01-26T15:43:39</date>
+  <millis>1611650619651</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = AZURE$ - Azure</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">AZURE$ - Azure</property>
+</record>
+<record>
+  <date>2021-01-26T15:43:39</date>
+  <millis>1611650619652</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2021-01-26T15:43:39</date>
+  <millis>1611650619653</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.50.143</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.50.143</property>
+</record>
+<record>
+  <date>2021-01-26T15:43:39</date>
+  <millis>1611650619654</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2021-01-26T15:43:40</date>
+  <millis>1611650620072</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Test 1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Test 1</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Test 1</property>
+  <property name="source">C:\\Users\\ACER\\git\\KatalonGitTest\\Test Cases\\Test 1.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2021-01-26T15:43:41</date>
+  <millis>1611650621122</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2021-01-26T15:43:41</date>
+  <millis>1611650621968</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2021-01-26T15:43:42</date>
+  <millis>1611650622020</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2021-01-26T15:47:35</date>
+  <millis>1611650855014</millis>
+  <sequence>11</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created\nfrom tab crashed\n  (Session info: chrome=87.0.4280.141)\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;AZURE&amp;apos;, ip: &amp;apos;192.168.50.143&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00F4C0C3+3326147]\n\tOrdinal0 [0x00E30851+2164817]\n\tOrdinal0 [0x00CB7140+618816]\n\tOrdinal0 [0x00CABC40+572480]\n\tOrdinal0 [0x00CABA18+571928]\n\tOrdinal0 [0x00CAB0C1+569537]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CB38B1+604337]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CAAEA2+568994]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CB1D2C+597292]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CAAEA2+568994]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CAFE62+589410]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CAAEA2+568994]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CAF075+585845]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CAAEA2+568994]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CA6776+550774]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CA9F13+565011]\n\tOrdinal0 [0x00CA9D07+564487]\n\tOrdinal0 [0x00CB82C0+623296]\n\tOrdinal0 [0x00C56BDD+224221]\n\tOrdinal0 [0x00C55CAC+220332]\n\tOrdinal0 [0x00C5189B+202907]\n\tOrdinal0 [0x00C33DF4+81396]\n\tOrdinal0 [0x00C34DEE+85486]\n\tOrdinal0 [0x00C34D79+85369]\n\tOrdinal0 [0x00E485DC+2262492]\n\tGetHandleVerifier [0x010D2874+1487204]\n\tGetHandleVerifier [0x010D23CD+1486013]\n\tGetHandleVerifier [0x010DA368+1518680]\n\tGetHandleVerifier [0x010D2F4E+1488958]\n\tOrdinal0 [0x00E3ED0D+2223373]\n\tOrdinal0 [0x00E4A12B+2269483]\n\tOrdinal0 [0x00E4A26F+2269807]\n\tOrdinal0 [0x00E5ECB8+2354360]\n\tBaseThreadInitThunk [0x76F4FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x771575F4+228]\n\tRtlGetAppContainerNamedObjectPath [0x771575C4+180]\n)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2021-01-26T15:47:35</date>
+  <millis>1611650855023</millis>
+  <sequence>13</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>openBrowser(\&amp;quot;\&amp;quot;) FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created\nfrom tab crashed\n  (Session info: chrome=87.0.4280.141)\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;AZURE&amp;apos;, ip: &amp;apos;192.168.50.143&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00F4C0C3+3326147]\n\tOrdinal0 [0x00E30851+2164817]\n\tOrdinal0 [0x00CB7140+618816]\n\tOrdinal0 [0x00CABC40+572480]\n\tOrdinal0 [0x00CABA18+571928]\n\tOrdinal0 [0x00CAB0C1+569537]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CB38B1+604337]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CAAEA2+568994]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CB1D2C+597292]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CAAEA2+568994]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CAFE62+589410]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CAAEA2+568994]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CAF075+585845]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CAAEA2+568994]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CA6776+550774]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CA9F13+565011]\n\tOrdinal0 [0x00CA9D07+564487]\n\tOrdinal0 [0x00CB82C0+623296]\n\tOrdinal0 [0x00C56BDD+224221]\n\tOrdinal0 [0x00C55CAC+220332]\n\tOrdinal0 [0x00C5189B+202907]\n\tOrdinal0 [0x00C33DF4+81396]\n\tOrdinal0 [0x00C34DEE+85486]\n\tOrdinal0 [0x00C34D79+85369]\n\tOrdinal0 [0x00E485DC+2262492]\n\tGetHandleVerifier [0x010D2874+1487204]\n\tGetHandleVerifier [0x010D23CD+1486013]\n\tGetHandleVerifier [0x010DA368+1518680]\n\tGetHandleVerifier [0x010D2F4E+1488958]\n\tOrdinal0 [0x00E3ED0D+2223373]\n\tOrdinal0 [0x00E4A12B+2269483]\n\tOrdinal0 [0x00E4A26F+2269807]\n\tOrdinal0 [0x00E5ECB8+2354360]\n\tBaseThreadInitThunk [0x76F4FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x771575F4+228]\n\tRtlGetAppContainerNamedObjectPath [0x771575C4+180]\n)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat Test 1.run(Test 1:19)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1611650616948.run(TempTestSuite1611650616948.groovy:36)\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from tab crashed
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7140+618816]
+	Ordinal0 [0x00CABC40+572480]
+	Ordinal0 [0x00CABA18+571928]
+	Ordinal0 [0x00CAB0C1+569537]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>60</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Test 1</class>
+      <method>run</method>
+      <line>19</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1611650616948</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2021-01-26T15:47:35</date>
+  <millis>1611650855029</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2021-01-26T15:47:35</date>
+  <millis>1611650855030</millis>
+  <sequence>16</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Test 1 FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created\nfrom tab crashed\n  (Session info: chrome=87.0.4280.141)\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;AZURE&amp;apos;, ip: &amp;apos;192.168.50.143&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00F4C0C3+3326147]\n\tOrdinal0 [0x00E30851+2164817]\n\tOrdinal0 [0x00CB7140+618816]\n\tOrdinal0 [0x00CABC40+572480]\n\tOrdinal0 [0x00CABA18+571928]\n\tOrdinal0 [0x00CAB0C1+569537]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CB38B1+604337]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CAAEA2+568994]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CB1D2C+597292]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CAAEA2+568994]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CAFE62+589410]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CAAEA2+568994]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CAF075+585845]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CAAEA2+568994]\n\tOrdinal0 [0x00CAA421+566305]\n\tOrdinal0 [0x00CAA815+567317]\n\tOrdinal0 [0x00CAA135+565557]\n\tOrdinal0 [0x00CA6776+550774]\n\tOrdinal0 [0x00CAA0F1+565489]\n\tOrdinal0 [0x00CA9F13+565011]\n\tOrdinal0 [0x00CA9D07+564487]\n\tOrdinal0 [0x00CB82C0+623296]\n\tOrdinal0 [0x00C56BDD+224221]\n\tOrdinal0 [0x00C55CAC+220332]\n\tOrdinal0 [0x00C5189B+202907]\n\tOrdinal0 [0x00C33DF4+81396]\n\tOrdinal0 [0x00C34DEE+85486]\n\tOrdinal0 [0x00C34D79+85369]\n\tOrdinal0 [0x00E485DC+2262492]\n\tGetHandleVerifier [0x010D2874+1487204]\n\tGetHandleVerifier [0x010D23CD+1486013]\n\tGetHandleVerifier [0x010DA368+1518680]\n\tGetHandleVerifier [0x010D2F4E+1488958]\n\tOrdinal0 [0x00E3ED0D+2223373]\n\tOrdinal0 [0x00E4A12B+2269483]\n\tOrdinal0 [0x00E4A26F+2269807]\n\tOrdinal0 [0x00E5ECB8+2354360]\n\tBaseThreadInitThunk [0x76F4FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x771575F4+228]\n\tRtlGetAppContainerNamedObjectPath [0x771575C4+180]\n)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\r\n\tat Test 1.run(Test 1:19)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1611650616948.run(TempTestSuite1611650616948.groovy:36)\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from tab crashed
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7140+618816]
+	Ordinal0 [0x00CABC40+572480]
+	Ordinal0 [0x00CABA18+571928]
+	Ordinal0 [0x00CAB0C1+569537]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>60</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Test 1</class>
+      <method>run</method>
+      <line>19</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1611650616948</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2021-01-26T15:47:35</date>
+  <millis>1611650855036</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Test 1</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2021-01-26T15:47:35</date>
+  <millis>1611650855046</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Test 2</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Test 2</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Test 2</property>
+  <property name="source">C:\\Users\\ACER\\git\\KatalonGitTest\\Test Cases\\Test 2.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2021-01-26T15:47:35</date>
+  <millis>1611650855291</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2021-01-26T15:47:35</date>
+  <millis>1611650855292</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>

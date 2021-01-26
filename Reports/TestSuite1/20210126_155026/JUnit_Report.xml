@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="1213" tests="0" failures="2" errors="0">
+   <testsuite name="TestSuite1" tests="0" failures="2" errors="0" time="1213" timestamp="2021-01-26 15:50:31" hostname="AZURE$ - Azure" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\KatalonGitTest\\Reports\\TestSuite1\\20210126_155026"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\KatalonGitTest\\Reports\\TestSuite1\\20210126_155026\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AZURE$ - Azure"/>
+         <property name="hostAddress" value="192.168.50.143"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Test 1" classname="Test Cases/Test 1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test 1.run(Test 1:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611651026673.run(TempTestSuite1611651026673.groovy:36)
+"/>
+         <system-out><![CDATA[2021-01-26 15:50:32 - [TEST_CASE][FAILED] - Test Cases/Test 1: Test Cases/Test 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test 1.run(Test 1:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611651026673.run(TempTestSuite1611651026673.groovy:36)
+
+
+2021-01-26 15:50:33 - [TEST_STEP][FAILED] - openBrowser(""): openBrowser("") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test 1.run(Test 1:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611651026673.run(TempTestSuite1611651026673.groovy:36)
+
+
+2021-01-26 15:50:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-26 15:50:34 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2021-01-26 16:00:40 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+
+2021-01-26 16:00:40 - [MESSAGE][FAILED] - openBrowser("") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test 1.run(Test 1:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611651026673.run(TempTestSuite1611651026673.groovy:36)]]></system-out>
+         <system-err><![CDATA[2021-01-26 15:50:32 - [TEST_CASE][FAILED] - Test Cases/Test 1: Test Cases/Test 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test 1.run(Test 1:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611651026673.run(TempTestSuite1611651026673.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test 2" classname="Test Cases/Test 2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test 2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test 2.run(Test 2:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611651026673.run(TempTestSuite1611651026673.groovy:36)
+"/>
+         <system-out><![CDATA[2021-01-26 16:00:40 - [TEST_CASE][FAILED] - Test Cases/Test 2: Test Cases/Test 2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test 2.run(Test 2:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611651026673.run(TempTestSuite1611651026673.groovy:36)
+
+
+2021-01-26 16:00:40 - [TEST_STEP][FAILED] - openBrowser(""): openBrowser("") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test 2.run(Test 2:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611651026673.run(TempTestSuite1611651026673.groovy:36)
+
+
+2021-01-26 16:00:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-26 16:10:44 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+
+2021-01-26 16:10:44 - [MESSAGE][FAILED] - openBrowser("") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test 2.run(Test 2:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611651026673.run(TempTestSuite1611651026673.groovy:36)]]></system-out>
+         <system-err><![CDATA[2021-01-26 16:00:40 - [TEST_CASE][FAILED] - Test Cases/Test 2: Test Cases/Test 2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test 2.run(Test 2:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611651026673.run(TempTestSuite1611651026673.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-26 15:50:31 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/Test 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test 1.run(Test 1:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611651026673.run(TempTestSuite1611651026673.groovy:36)]]></system-out>
+      <system-err><![CDATA[2021-01-26 15:50:31 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/Test 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AZURE', ip: '192.168.50.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F4C0C3+3326147]
+	Ordinal0 [0x00E30851+2164817]
+	Ordinal0 [0x00CB7298+619160]
+	Ordinal0 [0x00CAB17F+569727]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB38B1+604337]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CB1D2C+597292]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAFE62+589410]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CAF075+585845]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CAAEA2+568994]
+	Ordinal0 [0x00CAA421+566305]
+	Ordinal0 [0x00CAA815+567317]
+	Ordinal0 [0x00CAA135+565557]
+	Ordinal0 [0x00CA6776+550774]
+	Ordinal0 [0x00CAA0F1+565489]
+	Ordinal0 [0x00CA9F13+565011]
+	Ordinal0 [0x00CA9D07+564487]
+	Ordinal0 [0x00CB82C0+623296]
+	Ordinal0 [0x00C56BDD+224221]
+	Ordinal0 [0x00C55CAC+220332]
+	Ordinal0 [0x00C5189B+202907]
+	Ordinal0 [0x00C33DF4+81396]
+	Ordinal0 [0x00C34DEE+85486]
+	Ordinal0 [0x00C34D79+85369]
+	Ordinal0 [0x00E485DC+2262492]
+	GetHandleVerifier [0x010D2874+1487204]
+	GetHandleVerifier [0x010D23CD+1486013]
+	GetHandleVerifier [0x010DA368+1518680]
+	GetHandleVerifier [0x010D2F4E+1488958]
+	Ordinal0 [0x00E3ED0D+2223373]
+	Ordinal0 [0x00E4A12B+2269483]
+	Ordinal0 [0x00E4A26F+2269807]
+	Ordinal0 [0x00E5ECB8+2354360]
+	BaseThreadInitThunk [0x76F4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x771575F4+228]
+	RtlGetAppContainerNamedObjectPath [0x771575C4+180]
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Test 1.run(Test 1:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611651026673.run(TempTestSuite1611651026673.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

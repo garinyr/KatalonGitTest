@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 87.0.4280.141,,2021-01-26 16:48:16,2021-01-26 16:48:47,31.591s,PASSED
+,,,,,,
+Test Cases/Test 1,Chrome 87.0.4280.141,,2021-01-26 16:48:16,2021-01-26 16:48:32,15.457s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,2021-01-26 16:48:17,2021-01-26 16:48:23,6.128s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 87.0.4280.141,,2021-01-26 16:48:23,2021-01-26 16:48:30,6.865s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/the-internet/a-b testing page/a_AB Testing""), 5)",Chrome 87.0.4280.141,,2021-01-26 16:48:30,2021-01-26 16:48:30,0.127s,PASSED
+"click(findTestObject(""Object Repository/the-internet/a-b testing page/a_AB Testing""))",Chrome 87.0.4280.141,,2021-01-26 16:48:30,2021-01-26 16:48:31,0.619s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,2021-01-26 16:48:31,2021-01-26 16:48:32,0.630s,PASSED
+,,,,,,
+Test Cases/Test 2,Chrome 87.0.4280.141,,2021-01-26 16:48:32,2021-01-26 16:48:47,15.669s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,2021-01-26 16:48:32,2021-01-26 16:48:36,3.393s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 87.0.4280.141,,2021-01-26 16:48:36,2021-01-26 16:48:45,9.462s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/the-internet/add-remove elements/a_AddRemove Elements""), 5)",Chrome 87.0.4280.141,,2021-01-26 16:48:45,2021-01-26 16:48:45,0.059s,PASSED
+"click(findTestObject(""Object Repository/the-internet/add-remove elements/a_AddRemove Elements""))",Chrome 87.0.4280.141,,2021-01-26 16:48:45,2021-01-26 16:48:46,0.836s,PASSED
+"click(findTestObject(""Object Repository/the-internet/add-remove elements/button_Add Element""))",Chrome 87.0.4280.141,,2021-01-26 16:48:46,2021-01-26 16:48:46,0.118s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/the-internet/add-remove elements/button_Delete""), 0)",Chrome 87.0.4280.141,,2021-01-26 16:48:46,2021-01-26 16:48:46,0.068s,PASSED
+"click(findTestObject(""Object Repository/the-internet/add-remove elements/button_Delete""))",Chrome 87.0.4280.141,,2021-01-26 16:48:46,2021-01-26 16:48:46,0.145s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,2021-01-26 16:48:46,2021-01-26 16:48:47,1.100s,PASSED
