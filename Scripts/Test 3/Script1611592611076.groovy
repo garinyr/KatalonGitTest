@@ -4,7 +4,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('lifecharger.org')
 
-WebUI.click(findTestObject('Object Repository/archives'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 

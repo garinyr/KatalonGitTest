@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,,,2021-01-26 13:09:55,2021-01-26 13:30:07,20m - 12.339s,FAILED
+,,,,,,
+Test Cases/Test 1,,,2021-01-26 13:09:55,2021-01-26 13:20:04,10m - 8.197s,FAILED
+"openBrowser("""")",,,2021-01-26 13:09:56,2021-01-26 13:20:04,10m - 7.783s,FAILED
+,,,,,,
+Test Cases/Test 2,,,2021-01-26 13:20:04,2021-01-26 13:30:07,10m - 3.441s,FAILED
+"openBrowser("""")",,,2021-01-26 13:20:04,2021-01-26 13:30:07,10m - 3.381s,FAILED
